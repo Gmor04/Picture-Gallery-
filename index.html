@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My galley</title>
+</head>
+<style>
+    .div-img {
+        width: 40%;
+        height: 98vh;
+    }
+
+    #myimg {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    #mypree {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.418);
+        position: absolute;
+        top: 40%;
+        left: 27%;
+    }
+
+    #mypreey {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.418);
+        position: absolute;
+        top: 40%;
+        right: 27%;
+    }
+
+    .leef {
+        font-size: 45px;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="div-img"><img id="myimg" src="" alt=""></div>
+    <div id="mypree" onclick="myprevbtn()"><i class="leef fa-solid fa-chevron-left"></i></div>
+    <div id="mypreey" onclick="mynextbtn()"><i class=" leef fa-solid fa-chevron-right"></i></div>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/43a95b333e.js" crossorigin="anonymous"></script>
